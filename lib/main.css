@@ -1,0 +1,64 @@
+body {
+    background-color: #b9c6d9;
+}
+
+* {
+    font-family: "PatrickHandSC", cursive;
+}
+
+header h1 {
+    margin-top: 5px;
+    font-family: "MedievalSharp", cursive;
+}
+
+header {
+    margin-bottom: 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+section {
+    margin-bottom: 10px;
+}
+
+.card-header {
+    font-family: "MedievalSharp", cursive;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.nav-item > .active {
+    background-image: linear-gradient(white, #5c636a);
+    color: black !important;
+}
+
+.lojaImgsContainer {
+    max-width: 1024px;
+    max-height: 400px;
+    overflow-y: hidden;
+}
+
+.lojaImgsContainer img {
+    width: 100%;
+}
+
+.card-body > .justify-content-center > img {
+    max-height: 300px;
+}
+
+.nav-menu .nav-link.active {
+    background-color: #5c636a;
+    color: white !important;
+}
+
+.nav-menu .nav-link:hover {
+    background-color: rgba(0, 0, 0, 10%);
+    color: black !important;
+}
+
+.containerForm input,
+.containerForm textarea {
+    padding: 5px;
+}

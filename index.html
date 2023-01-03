@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Loja RPG</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="lib/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&family=Patrick+Hand+SC&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+</head>
+<body>
+<header>
+    <div id="idHeader" class="navbar navbar-dark bg-dark text-bg-dark navbar-expand-lg">
+        <div class="container">
+            <h1 class="fw-bold">Loja de Jogos</h1>
+            <button class="navbar-dark navbar-toggler" data-bs-toggle="collapse" data-bs-target="#idMenuNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav id="idMenuNav" class="collapse navbar-collapse justify-content-end">
+                <ul class="nav navbar-nav nav-pills">
+                    <li class="nav-item">
+                        <a class="text-light nav-link active" href="#idSobre"><i class="bi bi-dice-6 me-2"></i>Sobre a
+                            Loja</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-light nav-link" href="#idTopJogos"><i class="bi bi-joystick me-2"></i>Top 5 Jogos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-light nav-link" href="#idShop"><i class="bi bi-controller me-2"></i>Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-light nav-link" href="#idContato"><i class="bi bi-person-rolodex me-2"></i>Fale
+                            Conosco</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<div data-bs-spy="scroll" data-bs-target="#idHeader">
+    <section>
+        <div class="d-flex justify-content-center align-content-center">
+            <div class="lojaImgsContainer rounded-5">
+                <div id="idCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div data-bs-interval="1500" class="carousel-item active">
+                            <img src="imgs/fundo1.jpg" alt="Loja 1"/>
+                        </div>
+                        <div data-bs-interval="1500" class="carousel-item">
+                            <img src="imgs/fundo2.jpg" alt="Loja 2"/>
+                        </div>
+                        <div data-bs-interval="1500" class="carousel-item">
+                            <img src="imgs/fundo3.jpg" alt="Loja 3"/>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#idCarousel"
+                            data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#idCarousel"
+                            data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="bg-light p-3 mb-4">
+        <section>
+            <div class="container ">
+                <div class="row gy-3">
+                    <div class="col-lg-6 d-flex align-items-center bg-light me-lg-3 rounded-4 p-2">
+                        <img class="img-fluid rounded-4" src="imgs/loja.jpeg">
+                    </div>
+                    <div class="col-lg-5 col-12 bg-black bg-opacity-10 p-3 rounded-4">
+                        <h3 id="idSobre">Sobre a Loja</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci alias corporis cum dolorem
+                            eius
+                            error hic illo impedit odit quaerat quam quis ratione repellat rerum, saepe sequi totam
+                            veritatis,
+                            voluptatibus.</p>
+                        <br/>
+                        <div class="row">
+                            <div class="col-6">
+                                <h4>Sobre o Espaço</h4>
+                                <p style="text-align: justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                    Commodi
+                                    delectus dignissimos ea et
+                                    ipsum
+                                    itaque laborum nam nostrum numquam optio porro, possimus quo repellendus sit sunt
+                                    suscipit
+                                    totam!
+                                    At, minus?</p>
+                            </div>
+                            <div class="col-6">
+                                <h4 id="idEventos">Próxomos Eventos</h4>
+                                <ul>
+                                    <li>Evento 1</li>
+                                    <li>Evento 2</li>
+                                    <li>Evento 3</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <section>
+        <div class="container">
+            <div class="- mb-2">
+                <h3 class="text-center" id="idTopJogos">Top 5 Jogos</h3>
+            </div>
+            <div class="row gy-3">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            Dark Souls 3
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center mb-2">
+                                <img class="rounded-1" src="imgs/jogo1.webp"/>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet ducimus enim hic
+                                minus, molestias nemo non perferendis, provident quae quaerat quidem quos, repellat
+                                temporibus ut velit veniam vitae voluptate?</p>
+                        </div>
+                        <div class="card-footer justify-content-center d-flex">
+                            <button type="button" class="btn btn-dark w-75">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            Elden Ring
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center mb-2">
+                                <img class="rounded-1" class="img-fluid" src="imgs/jogo2.webp"/>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet ducimus enim hic
+                                minus, molestias nemo non perferendis, provident quae quaerat quidem quos, repellat
+                                temporibus ut velit veniam vitae voluptate?</p>
+                        </div>
+                        <div class="card-footer justify-content-center d-flex">
+                            <button type="button" class="btn btn-dark w-75">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            Sekiro
+                        </div>
+                        <div class="card-body">
+
+                            <div class="d-flex justify-content-center mb-2">
+                                <img class="rounded-1" class="img-fluid rounded-3" src="imgs/jogo3.webp"/>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet ducimus enim hic
+                                minus, molestias nemo non perferendis, provident quae quaerat quidem quos, repellat
+                                temporibus ut velit veniam vitae voluptate?</p>
+                        </div>
+                        <div class="card-footer justify-content-center d-flex">
+                            <button type="button" class="btn btn-dark w-75">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            Final Fantasy VII - Remake
+                        </div>
+                        <div class="card-body">
+
+                            <div class="d-flex justify-content-center mb-2">
+                                <img class="rounded-1" class="img-fluid" src="imgs/jogo4.jpeg"/>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet ducimus enim hic
+                                minus, molestias nemo non perferendis, provident quae quaerat quidem quos, repellat
+                                temporibus ut velit veniam vitae voluptate?</p>
+                        </div>
+                        <div class="card-footer justify-content-center d-flex">
+                            <button type="button" class="btn btn-dark w-75">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card">
+                        <div class="card-header">
+                            Elder Scrolls V - Skyrim
+                        </div>
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center mb-2">
+                                <img class="rounded-1" class="img-fluid" src="imgs/jogo5.jpeg"/>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci amet ducimus enim hic
+                                minus, molestias nemo non perferendis, provident quae quaerat quidem quos, repellat
+                                temporibus ut velit veniam vitae voluptate?</p>
+                        </div>
+                        <div class="card-footer justify-content-center d-flex">
+                            <button type="button" class="btn btn-dark w-75">Comprar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="m-3">
+            <h3 id="idShop" class="text-center">Outros Itens</h3>
+        </div>
+        <div class="container bg-light rounded-3 p-4">
+            <div class="row gy-3">
+                <div class="col-lg-3 col-md-12">
+                    <nav class="nav nav-pills flex-column justify-content-center h-100 nav-menu ">
+                        <h3 class="text-center">Menu</h3>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#idLivros"
+                                class="nav-link active text-dark">Livros
+                        </button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#idConsoles"
+                                class="nav-link text-dark">
+                            Consoles
+                        </button>
+                        <button type="button" data-bs-toggle="tab" data-bs-target="#idAcessorios"
+                                class="nav-link text-dark">Acessórios
+                        </button>
+                    </nav>
+                </div>
+                <div class="col-lg-9 col-md-12 bg-black bg-opacity-10 rounded-3 p-2">
+                    <div class="tab-content">
+                        <div id="idLivros" class="tab-pane active">
+                            <h3 class="p-2">Livros</h3>
+                            <div class="row gy-3">
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <div class="card">
+                                        <div class="card-header d-flex justify-content-between align-items-baseline">
+                                            <h5>Nome do Item</h5>
+                                            <button type="button" class="btn btn-outline-dark">
+                                                <i class="bi bi-cart-plus-fill fs-5"></i>
+                                            </button>
+                                        </div>
+                                        <div class="card-body">
+                                            <img class="d-block w-100 rounded-5" src="imgs/item2.webp"/>
+                                        </div>
+                                        <div class="card-footer">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+                                                debitis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <div class="card">
+                                        <div class="card-header d-flex justify-content-between align-items-baseline">
+                                            <h5>Nome do Item</h5>
+                                            <button type="button" class="btn btn-outline-dark">
+                                                <i class="bi bi-cart-plus-fill fs-5"></i>
+                                            </button>
+                                        </div>
+                                        <div class="card-body">
+                                            <img class="d-block w-100 rounded-5" src="imgs/item2.webp"/>
+                                        </div>
+                                        <div class="card-footer">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+                                                debitis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <div class="card">
+                                        <div class="card-header d-flex justify-content-between align-items-baseline">
+                                            <h5>Nome do Item</h5>
+                                            <button type="button" class="btn btn-outline-dark">
+                                                <i class="bi bi-cart-plus-fill fs-5"></i>
+                                            </button>
+                                        </div>
+                                        <div class="card-body">
+                                            <img class="d-block w-100 rounded-5" src="imgs/item2.webp"/>
+                                        </div>
+                                        <div class="card-footer">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+                                                debitis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <div class="card">
+                                        <div class="card-header d-flex justify-content-between align-items-baseline">
+                                            <h5>Nome do Item</h5>
+                                            <button type="button" class="btn btn-outline-dark">
+                                                <i class="bi bi-cart-plus-fill fs-5"></i>
+                                            </button>
+                                        </div>
+                                        <div class="card-body">
+                                            <img class="d-block w-100 rounded-5" src="imgs/item2.webp"/>
+                                        </div>
+                                        <div class="card-footer">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+                                                debitis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <div class="card">
+                                        <div class="card-header d-flex justify-content-between align-items-baseline">
+                                            <h5>Nome do Item</h5>
+                                            <button type="button" class="btn btn-outline-dark">
+                                                <i class="bi bi-cart-plus-fill fs-5"></i>
+                                            </button>
+                                        </div>
+                                        <div class="card-body">
+                                            <img class="d-block w-100 rounded-5" src="imgs/item2.webp"/>
+                                        </div>
+                                        <div class="card-footer">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+                                                debitis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <div class="card">
+                                        <div class="card-header d-flex justify-content-between align-items-baseline">
+                                            <h5>Nome do Item</h5>
+                                            <button type="button" class="btn btn-outline-dark">
+                                                <i class="bi bi-cart-plus-fill fs-5"></i>
+                                            </button>
+                                        </div>
+                                        <div class="card-body">
+                                            <img class="d-block w-100 rounded-5" src="imgs/item2.webp"/>
+                                        </div>
+                                        <div class="card-footer">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+                                                debitis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <div class="card">
+                                        <div class="card-header d-flex justify-content-between align-items-baseline">
+                                            <h5>Nome do Item</h5>
+                                            <button type="button" class="btn btn-outline-dark">
+                                                <i class="bi bi-cart-plus-fill fs-5"></i>
+                                            </button>
+                                        </div>
+                                        <div class="card-body">
+                                            <img class="d-block w-100 rounded-5" src="imgs/item2.webp"/>
+                                        </div>
+                                        <div class="card-footer">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+                                                debitis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <div class="card">
+                                        <div class="card-header d-flex justify-content-between align-items-baseline">
+                                            <h5>Nome do Item</h5>
+                                            <button type="button" class="btn btn-outline-dark">
+                                                <i class="bi bi-cart-plus-fill fs-5"></i>
+                                            </button>
+                                        </div>
+                                        <div class="card-body">
+                                            <img class="d-block w-100 rounded-5" src="imgs/item2.webp"/>
+                                        </div>
+                                        <div class="card-footer">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+                                                debitis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <div class="card">
+                                        <div class="card-header d-flex justify-content-between align-items-baseline">
+                                            <h5>Nome do Item</h5>
+                                            <button type="button" class="btn btn-outline-dark">
+                                                <i class="bi bi-cart-plus-fill fs-5"></i>
+                                            </button>
+                                        </div>
+                                        <div class="card-body">
+                                            <img class="d-block w-100 rounded-5" src="imgs/item2.webp"/>
+                                        </div>
+                                        <div class="card-footer">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+                                                debitis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <div class="card">
+                                        <div class="card-header d-flex justify-content-between align-items-baseline">
+                                            <h5>Nome do Item</h5>
+                                            <button type="button" class="btn btn-outline-dark">
+                                                <i class="bi bi-cart-plus-fill fs-5"></i>
+                                            </button>
+                                        </div>
+                                        <div class="card-body">
+                                            <img class="d-block w-100 rounded-5" src="imgs/item2.webp"/>
+                                        </div>
+                                        <div class="card-footer">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+                                                debitis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="idConsoles" class="tab-pane">
+                            <h3 class="p-2">Consoles</h3>
+                            <div class="row gy-3">
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <div class="card">
+                                        <div class="card-header d-flex justify-content-between align-items-baseline">
+                                            <h5>Nome do Item</h5>
+                                            <button type="button" class="btn btn-outline-dark">
+                                                <i class="bi bi-cart-plus-fill fs-5"></i>
+                                            </button>
+                                        </div>
+                                        <div class="card-body">
+                                            <img class="d-block w-100 rounded-5" src="imgs/item3.jpeg"/>
+                                        </div>
+                                        <div class="card-footer">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+                                                debitis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <div class="card">
+                                        <div class="card-header d-flex justify-content-between align-items-baseline">
+                                            <h5>Nome do Item</h5>
+                                            <button type="button" class="btn btn-outline-dark">
+                                                <i class="bi bi-cart-plus-fill fs-5"></i>
+                                            </button>
+                                        </div>
+                                        <div class="card-body">
+                                            <img class="d-block w-100 rounded-5" src="imgs/item3.jpeg"/>
+                                        </div>
+                                        <div class="card-footer">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+                                                debitis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <div class="card">
+                                        <div class="card-header d-flex justify-content-between align-items-baseline">
+                                            <h5>Nome do Item</h5>
+                                            <button type="button" class="btn btn-outline-dark">
+                                                <i class="bi bi-cart-plus-fill fs-5"></i>
+                                            </button>
+                                        </div>
+                                        <div class="card-body">
+                                            <img class="d-block w-100 rounded-5" src="imgs/item3.jpeg"/>
+                                        </div>
+                                        <div class="card-footer">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+                                                debitis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <div class="card">
+                                        <div class="card-header d-flex justify-content-between align-items-baseline">
+                                            <h5>Nome do Item</h5>
+                                            <button type="button" class="btn btn-outline-dark">
+                                                <i class="bi bi-cart-plus-fill fs-5"></i>
+                                            </button>
+                                        </div>
+                                        <div class="card-body">
+                                            <img class="d-block w-100 rounded-5" src="imgs/item3.jpeg"/>
+                                        </div>
+                                        <div class="card-footer">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+                                                debitis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <div class="card">
+                                        <div class="card-header d-flex justify-content-between align-items-baseline">
+                                            <h5>Nome do Item</h5>
+                                            <button type="button" class="btn btn-outline-dark">
+                                                <i class="bi bi-cart-plus-fill fs-5"></i>
+                                            </button>
+                                        </div>
+                                        <div class="card-body">
+                                            <img class="d-block w-100 rounded-5" src="imgs/item3.jpeg"/>
+                                        </div>
+                                        <div class="card-footer">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+                                                debitis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <div class="card">
+                                        <div class="card-header d-flex justify-content-between align-items-baseline">
+                                            <h5>Nome do Item</h5>
+                                            <button type="button" class="btn btn-outline-dark">
+                                                <i class="bi bi-cart-plus-fill fs-5"></i>
+                                            </button>
+                                        </div>
+                                        <div class="card-body">
+                                            <img class="d-block w-100 rounded-5" src="imgs/item3.jpeg"/>
+                                        </div>
+                                        <div class="card-footer">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+                                                debitis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="idAcessorios" class="tab-pane">
+                            <h3 class="p-2">Consoles</h3>
+                            <div class="row gy-3">
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <div class="card">
+                                        <div class="card-header d-flex justify-content-between align-items-baseline">
+                                            <h5>Nome do Item</h5>
+                                            <button type="button" class="btn btn-outline-dark">
+                                                <i class="bi bi-cart-plus-fill fs-5"></i>
+                                            </button>
+                                        </div>
+                                        <div class="card-body">
+                                            <img class="d-block w-100 rounded-5" src="imgs/item.jpg"/>
+                                        </div>
+                                        <div class="card-footer">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+                                                debitis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <div class="card">
+                                        <div class="card-header d-flex justify-content-between align-items-baseline">
+                                            <h5>Nome do Item</h5>
+                                            <button type="button" class="btn btn-outline-dark">
+                                                <i class="bi bi-cart-plus-fill fs-5"></i>
+                                            </button>
+                                        </div>
+                                        <div class="card-body">
+                                            <img class="d-block w-100 rounded-5" src="imgs/item.jpg"/>
+                                        </div>
+                                        <div class="card-footer">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+                                                debitis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <div class="card">
+                                        <div class="card-header d-flex justify-content-between align-items-baseline">
+                                            <h5>Nome do Item</h5>
+                                            <button type="button" class="btn btn-outline-dark">
+                                                <i class="bi bi-cart-plus-fill fs-5"></i>
+                                            </button>
+                                        </div>
+                                        <div class="card-body">
+                                            <img class="d-block w-100 rounded-5" src="imgs/item.jpg"/>
+                                        </div>
+                                        <div class="card-footer">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+                                                debitis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <div class="card">
+                                        <div class="card-header d-flex justify-content-between align-items-baseline">
+                                            <h5>Nome do Item</h5>
+                                            <button type="button" class="btn btn-outline-dark">
+                                                <i class="bi bi-cart-plus-fill fs-5"></i>
+                                            </button>
+                                        </div>
+                                        <div class="card-body">
+                                            <img class="d-block w-100 rounded-5" src="imgs/item.jpg"/>
+                                        </div>
+                                        <div class="card-footer">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+                                                debitis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <div class="card">
+                                        <div class="card-header d-flex justify-content-between align-items-baseline">
+                                            <h5>Nome do Item</h5>
+                                            <button type="button" class="btn btn-outline-dark">
+                                                <i class="bi bi-cart-plus-fill fs-5"></i>
+                                            </button>
+                                        </div>
+                                        <div class="card-body">
+                                            <img class="d-block w-100 rounded-5" src="imgs/item.jpg"/>
+                                        </div>
+                                        <div class="card-footer">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+                                                debitis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-4 col-6">
+                                    <div class="card">
+                                        <div class="card-header d-flex justify-content-between align-items-baseline">
+                                            <h5>Nome do Item</h5>
+                                            <button type="button" class="btn btn-outline-dark">
+                                                <i class="bi bi-cart-plus-fill fs-5"></i>
+                                            </button>
+                                        </div>
+                                        <div class="card-body">
+                                            <img class="d-block w-100 rounded-5" src="imgs/item.jpg"/>
+                                        </div>
+                                        <div class="card-footer">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur
+                                                debitis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="mb-2">
+            <h3 class="text-center" id="idContato">Contato</h3>
+        </div>
+        <div class="container bg-light w-auto p-3 rounded-3">
+            <div class="row mb-2">
+                <div class="col-4 d-flex justify-content-end align-items-center">
+                    <h5>Redes Sociais:</h5>
+                </div>
+                <div class="col-8 d-flex">
+                    <button type="button" class="btn btn-outline-dark me-2"><i class="bi bi-instagram fs-3"></i>
+                    </button>
+                    <button type="button" class="btn btn-outline-dark me-2"><i class="bi bi-facebook fs-3"></i></button>
+                    <button type="button" class="btn btn-outline-dark me-2"><i class="bi bi-youtube fs-3"></i></button>
+                </div>
+            </div>
+            <form class="containerForm">
+                <div class="row mb-2">
+                    <div class="col-4 text-end">
+                        <h5>Nome:</h5>
+                    </div>
+                    <div class="col-6">
+                        <input type="text" class="w-100"/>
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-4 text-end">
+                        <h5>Email:</h5>
+                    </div>
+                    <div class="col-6">
+                        <input type="text" class="w-100"/>
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-4 text-end">
+                        <h5>Telefone:</h5>
+                    </div>
+                    <div class="col-6">
+                        <input type="text" class="w-100"/>
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-4 text-end">
+                        <h5>Mensagem:</h5>
+                    </div>
+                    <div class="col-6">
+                        <textarea rows="5" class="w-100"></textarea>
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-4">
+                    </div>
+                    <div class="col-6">
+                        <button type="submit" class="btn btn-dark w-50">Enviar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+</div>
+<script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
